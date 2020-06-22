@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    margin-bottom: 10px;
+}
+
+header .logo{
+    text-align: left;
+    margin-left: 230px;
+ 
+}
+
+header .logo img{
+    margin-top: 40px;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: regular;  
+    font-size: 16px;  
+    color: gray;
+   
+}
+
+header .logo img{
+    margin-right: 150px;
+}
+
+
+.intro{
+    background-color: rgb(160, 209, 137);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 20px;
+    padding: 50px 0 0 20px;
+    margin: 0 auto;
+    width: 900px;    
+}
+
+#title  h1{
+    text-align: left;
+    margin-left: 225px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.intro .text{
+    margin-top: 50px;
+    margin-left: 55px;
+    text-align: left;
+    width: 270px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.intro .text h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.intro .image__chef{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(230, 228, 228);
+    padding: 8px;
+    bottom: 0; 
+    color: gray;
+    text-align: center;
+    margin-top: 40px; 
+    box-sizing: content-box;    
+}
+
+/* === CARDS === */
+
+.cards{
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card{
+    color: black;
+}
+
+.card .img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card .content{
+    text-align: left;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card .info{
+    font-size: 13px;
+    color: gray;
+}
+
+
