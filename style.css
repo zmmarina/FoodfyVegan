@@ -92,6 +92,29 @@ footer{
     box-sizing: content-box;    
 }
 
+/*=== FILTER ===*/
+
+.filter-btn{
+    margin-top: 60px;
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.filter-btn ul li{
+    display: inline-block;
+    background-color:  rgb(160, 209, 137);
+    color: rgb(39, 37, 37);
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.filter-btn ul li.active{
+    background-color: rgb(85, 204, 30);
+}
+
 /* === CARDS === */
 
 .cards{
@@ -100,12 +123,13 @@ footer{
     margin-top: 20px;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 20px;   
 }
 
 .card{
     color: black;
     cursor: pointer;
+    transition: all 1s ease;
 }
 
 .card .img img{

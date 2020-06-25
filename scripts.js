@@ -1,5 +1,6 @@
 const modalOverlay = document.querySelector(".modal-overlay");
 const cards = document.querySelectorAll(".card");
+const buttons = document.querySelector("#buttons").children;
 
 
 
@@ -20,3 +21,31 @@ document.querySelector(".close-modal").addEventListener("click", function (){
     modalOverlay.classList.remove("active");
     modalOverlay.querySelector("img").src="";
 })
+
+
+for (let button of buttons){
+
+    button.addEventListener("click", function(){
+
+        for (let button of buttons){
+            button.classList.remove("active");
+        }
+         this.classList.add("active")
+         const target = this.getAttribute("data-target");
+
+         for (let card of cards){
+             card.style.opacity = "0.3";
+             card.style.transform = "scale(0.8)";
+
+             if (card.getAttribute("data-id") == target){
+                card.style.opacity = "1";
+                card.style.transform = "scale(1)";
+             }
+
+             if (target == "all"){
+                card.style.opacity = "1";
+                card.style.transform = "scale(1)";
+             }
+         }
+    })
+}
