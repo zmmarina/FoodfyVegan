@@ -97,7 +97,7 @@ footer{
 .cards{
     max-width: 900px;
     margin: 0 auto;
-    margin-top: 55px;
+    margin-top: 20px;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
