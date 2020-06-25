@@ -7,7 +7,7 @@
 <h2>Functionalities</h2>
 <ul>
   <li> By clicking on the recipes, a modal appears to show the selected one. The images in the modal, change dynamically, according to the recipe (card)</li>
-  <li> A  filter that shows only the chosen category of recipe </li>
+  <li> A  filter shows only the chosen category of recipe </li>
 
 <p><strong>Access:https://foodfyveganzm.netlify.app/index.html</strong></p>
 
