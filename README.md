@@ -5,5 +5,5 @@
 
 <h2>Result</h2>
 
-![foodfy]("https://github.com/zmmarina/FoodfyVegan/blob/master/assets/Foodfy-Vegan-Google-Chrome-2020-06-24-21-49-15.gif")
+![foodfy]("assets/Foodfy-Vegan-Google-Chrome-2020-06-24-21-49-15.gif")
 
