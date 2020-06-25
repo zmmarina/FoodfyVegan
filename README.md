@@ -9,5 +9,5 @@
 <h2>Result</h2>
 
 
-![foodfyvegan](https://github.com/zmmarina/FoodfyVegan/blob/master/assets/Foodfy-Vegan-Google-Chrome-2020-06-24-21-49-15.gif)
+![foodfyvegan](https://github.com/zmmarina/FoodfyVegan/blob/master/assets/Foodfy-Vegan-Google-Chrome-2020-06-25-03-44-33.gif)
 
