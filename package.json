@@ -1,0 +1,25 @@
+{
+  "name": "foodfyvegan",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmmarina/FoodfyVegan.git"
+  },
+  "author": "Zandra Monteiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmmarina/FoodfyVegan/issues"
+  },
+  "homepage": "https://github.com/zmmarina/FoodfyVegan#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
