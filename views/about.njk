@@ -1,23 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Foodfy Vegan</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+{% extends "layout.html" %}
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-       <div class="logo">
-            <a href="index.html"><img src="/assets/logovegan4.png" alt="Foodfy Vegan"></a>             
-           <a href="about.html">About</a>
-           <a href="recipes.html">Recipes</a>         
-       </div>
-       </header>
+{% block head %} 
+<title>Foodfy Vegan - About</title>    
+{% endblock %}
 
-    <main>
+{% block content %}
         <div class="about">
             <h1>About Foodfy Vegan</h1>
             <p> Suspendisse placerat neque neque. Morbi dictum nulla non sapien rhoncus, et mattis erat commodo. 
@@ -62,12 +49,4 @@
                 </p>
         </div>    
 
-
-    </main>       
-
-    <footer>
-        <p>All rights reserved, recipes Foodfy Vegan</p>
-    </footer>
-    
-</body>
-</html>
+{% endblock %}

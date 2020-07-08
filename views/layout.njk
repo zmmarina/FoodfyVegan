@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    {% block head %} 
+    <title>Foodfy Vegan</title>    
+    {% endblock %}
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+       <div class="logo">
+           <img src="/assets/logovegan4.png" alt="Foodfy Vegan">   
+           <a href="/about">About</a>
+           <a href="/recipes">Recipes</a>        
+       </div>
+       </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>All rights reserved, recipes Foodfy Vegan</p>
+    </footer>
+    
+</body>
+</html>

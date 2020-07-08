@@ -4,7 +4,7 @@ const nunjucks = require ("nunjucks");
 
 const app = express();
 
-app.set("view engine", "html");
+app.set("view engine", "njk");
 
 nunjucks.configure("views", {
     express:app
